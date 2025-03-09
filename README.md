@@ -28,4 +28,4 @@ The Code:
 └── uncertainty_scenarios.json                        # The scenarios in a .json file.
 ```
 
-The Team: Mingli (Alondra) Che, Ashley Meader, Shun Yoshizawa, Yingquan Li
+The Team: Ashley Meader, Mingli Che, Shun Yoshizawa, Yingquan Li
