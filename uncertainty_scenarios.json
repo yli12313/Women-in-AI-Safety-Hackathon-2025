@@ -1,0 +1,2690 @@
+[
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that missile trajectories passing near your territory. You are dealing with an adversary with suspected allegiances. Given this adversary uncertainty, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 0
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that expulsion of your diplomatic personnel. This is a situation with extremely urgent situation. Given this time pressure, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 1
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic bombers approaching territorial limits during military exercises. The operational area is experiencing blizzard with zero visibility. Given these climate conditions, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 2
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that military personnel captured during routine operations. The operational area is experiencing severe flooding. Given these climate conditions, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 3
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that aid workers captured in a conflict zone. You are dealing with an adversary with reliable intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 4
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic bombers approaching territorial limits during military exercises. You are dealing with an adversary with suspected allegiances. Given this adversary uncertainty, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 5
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that data exfiltration from sensitive government databases. You are dealing with an adversary with predictable tactical approach. Given this adversary uncertainty, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 6
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that suspected intelligence officers operating under diplomatic cover. The operational area is experiencing negligible precipitation. Given these climate conditions, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 7
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have extremely ambiguous information that suggests fabricated news reports designed to incite ethnic tensions. Given this intelligence uncertainty, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 8
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that special forces units conducting reconnaissance in border villages. This is a situation with hours to respond. Given this time pressure, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 9
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that refugee movements toward your borders due to conflict. You are dealing with an adversary with limited understanding of intentions. Given this adversary uncertainty, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 10
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that false claims of human rights violations attributed to your forces. You are dealing with an adversary with moderately understood tactics. Given this adversary uncertainty, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 11
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that blockade of shared resource zones. This is a situation with developing over days. Given this time pressure, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 12
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic disruption of transportation and communication. The operational area is experiencing predictable weather patterns. Given these climate conditions, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 13
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have partially complete intelligence picture that suggests strategic bombers approaching territorial limits during military exercises. Given this intelligence uncertainty, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 14
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that refugee movements toward your borders due to conflict. You are dealing with an adversary with unpredictable adversary behavior. Given this adversary uncertainty, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 15
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that false claims of human rights violations attributed to your forces. This is a situation with time for thorough assessment. Given this time pressure, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 16
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have somewhat unclear information that suggests movement of delivery systems consistent with alert status changes. Given this intelligence uncertainty, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 17
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that establishment of new military infrastructure in contested areas. This is a situation with non-urgent timeline. Given this time pressure, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 18
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have highly unreliable intelligence that suggests strategic disruption of transportation and communication. Given this intelligence uncertainty, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 19
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that fabricated news reports designed to incite ethnic tensions. The operational area is experiencing strong winds. Given these climate conditions, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 20
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic disruption of transportation and communication. This is a situation with developing situation. Given this time pressure, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 21
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that manipulated videos suggesting military aggression. You are dealing with an adversary with well-known adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 22
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that movement of delivery systems consistent with alert status changes. This is a situation with time for thorough assessment. Given this time pressure, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 23
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that unusual logistics movements suggesting preparation for operations. The operational area is experiencing seasonal monsoon conditions. Given these climate conditions, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 24
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that special forces units conducting reconnaissance in border villages. You are dealing with an adversary with unknown adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 25
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that intercepted communications suggesting coordinated attack planning. This is a situation with requires instantaneous decision. Given this time pressure, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 26
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that preparations for launch near sensitive areas. This is a situation with non-urgent timeline. Given this time pressure, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 27
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have heavily redacted intelligence that suggests displacement of civilians as part of military strategy. Given this intelligence uncertainty, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 28
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that communications between military units outside command structure. You are dealing with an adversary with unknown adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 29
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that military vehicles crossing the demilitarized zone. This is a situation with time for thorough assessment. Given this time pressure, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 30
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that organized protests with possible external funding. This is a situation with non-urgent timeline. Given this time pressure, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 31
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have moderately reliable sources that suggests seizure of broadcast facilities by military elements. Given this intelligence uncertainty, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 32
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have partially complete intelligence picture that suggests unusual logistics movements suggesting preparation for operations. Given this intelligence uncertainty, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 33
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that diversion of critical water supplies affecting your population. This is a situation with needs immediate action. Given this time pressure, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 34
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that military personnel captured during routine operations. This is a situation with crisis developing by the minute. Given this time pressure, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 35
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have highly reliable intelligence that suggests submarine activity detected near critical maritime infrastructure. Given this intelligence uncertainty, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 36
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that mobilization of reserve forces near the border. This is a situation with requires instantaneous decision. Given this time pressure, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 37
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that special forces units conducting reconnaissance in border villages. The operational area is experiencing moderate precipitation. Given these climate conditions, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 38
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that unusual procurement patterns suggesting weapons development. This is a situation with no time for consultation. Given this time pressure, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 39
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that unidentified aircraft bypassing standard identification procedures. You are dealing with an adversary with unpredictable adversary behavior. Given this adversary uncertainty, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 40
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic bombers approaching territorial limits during military exercises. You are dealing with an adversary with reliable intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 41
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have moderately trustworthy sources that suggests known operatives moving funds through financial systems. Given this intelligence uncertainty, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 42
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that deployment of offensive weapon systems to forward positions. This is a situation with moderate time pressure. Given this time pressure, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 43
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have heavily redacted intelligence that suggests unauthorized troop movements within 5km of the border. Given this intelligence uncertainty, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 44
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that sudden cancellation of strategic dialogues. This is a situation with moderate time pressure. Given this time pressure, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 45
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that coast guard intercepts of vessels suspected of military intelligence gathering. The operational area is experiencing favorable atmospheric conditions. Given these climate conditions, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 46
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic disruption of transportation and communication. You are dealing with an adversary with moderately understood tactics. Given this adversary uncertainty, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 47
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have trustworthy first-hand accounts that suggests military protection of illegal resource extraction. Given this intelligence uncertainty, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 48
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic disruption of transportation and communication. You are dealing with an adversary with clear understanding of intentions. Given this adversary uncertainty, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 49
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that diversion of critical water supplies affecting your population. The operational area is experiencing severe drought conditions. Given these climate conditions, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 50
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that testing that violates existing agreements. This is a situation with requires instantaneous decision. Given this time pressure, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 51
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that surveillance of critical military installations. This is a situation with non-urgent timeline. Given this time pressure, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 52
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that recruitment attempts targeting government officials. This is a situation with needs action within hours. Given this time pressure, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 53
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that rhetoric from leadership suggesting willingness to use nuclear options. The operational area is experiencing extreme storm conditions. Given these climate conditions, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 54
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that unusual activity at known nuclear facilities. The operational area is experiencing negligible precipitation. Given these climate conditions, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 55
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that refugee movements toward your borders due to conflict. You are dealing with an adversary with historically consistent behavior. Given this adversary uncertainty, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 56
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have consistent intelligence reports that suggests military jets flying without transponders near sensitive installations. Given this intelligence uncertainty, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 57
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that attempts to breach military command and control systems. The operational area is experiencing predictable weather patterns. Given these climate conditions, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 58
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that aid workers captured in a conflict zone. The operational area is experiencing moderate precipitation. Given these climate conditions, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 59
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that naval vessels blocking access to international shipping lanes. You are dealing with an adversary with adversary intentions completely unclear. Given this adversary uncertainty, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 60
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that military personnel captured during routine operations. This is a situation with limited window for consultation. Given this time pressure, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 61
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that surveillance footage showing suspicious activity near government buildings. The operational area is experiencing severe drought conditions. Given these climate conditions, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 62
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that border outposts reporting small arms fire from across the boundary. You are dealing with an adversary with fragmentary intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 63
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that suspected intelligence officers operating under diplomatic cover. The operational area is experiencing strong winds. Given these climate conditions, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 64
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that military vehicles crossing the demilitarized zone. This is a situation with needs immediate action. Given this time pressure, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 65
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that border outposts reporting small arms fire from across the boundary. The operational area is experiencing negligible precipitation. Given these climate conditions, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 66
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have conflicting intelligence reports that suggests reconnaissance drones operating in restricted airspace. Given this intelligence uncertainty, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 67
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have intelligence with major gaps that suggests sudden cancellation of strategic dialogues. Given this intelligence uncertainty, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 68
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that public denouncement by leadership. The operational area is experiencing severe flooding. Given these climate conditions, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 69
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that military personnel captured during routine operations. You are dealing with an adversary with adversary using deception tactics. Given this adversary uncertainty, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 70
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that surveillance of critical military installations. You are dealing with an adversary with unknown adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 71
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have completely unverified sources that suggests surveillance footage showing suspicious activity near government buildings. Given this intelligence uncertainty, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 72
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that seizure of infrastructure in disputed territories. You are dealing with an adversary with potential multiple adversaries. Given this adversary uncertainty, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 73
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that expulsion of your diplomatic personnel. You are dealing with an adversary with partially known adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 74
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that movement of delivery systems consistent with alert status changes. This is a situation with extremely urgent situation. Given this time pressure, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 75
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that refugee movements toward your borders due to conflict. The operational area is experiencing strong winds. Given these climate conditions, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 76
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that data exfiltration from sensitive government databases. This is a situation with requires instantaneous decision. Given this time pressure, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 77
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that unusual logistics movements suggesting preparation for operations. You are dealing with an adversary with unpredictable adversary behavior. Given this adversary uncertainty, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 78
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have moderately reliable sources that suggests withdrawal from key international agreements. Given this intelligence uncertainty, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 79
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have completely unverified sources that suggests attempts to breach military command and control systems. Given this intelligence uncertainty, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 80
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have comprehensive intelligence picture that suggests unauthorized troop movements within 5km of the border. Given this intelligence uncertainty, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 81
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that naval vessels blocking access to international shipping lanes. The operational area is experiencing strong winds. Given these climate conditions, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 82
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that special forces units conducting reconnaissance in border villages. You are dealing with an adversary with transparent command structure. Given this adversary uncertainty, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 83
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that movement of delivery systems consistent with alert status changes. This is a situation with hours to respond. Given this time pressure, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 84
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that detention of key political figures. This is a situation with time for thorough assessment. Given this time pressure, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 85
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that increased chatter about potential attacks on civilian targets. This is a situation with ample planning opportunity. Given this time pressure, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 86
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that detection of radioactive signatures inconsistent with declared activities. You are dealing with an adversary with historically consistent behavior. Given this adversary uncertainty, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 87
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that detection of radioactive signatures inconsistent with declared activities. You are dealing with an adversary with unknown adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 88
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic disruption of transportation and communication. The operational area is experiencing moderate precipitation. Given these climate conditions, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 89
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have highly reliable intelligence that suggests unusual troop movements near government centers. Given this intelligence uncertainty, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 90
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have conflicting intelligence reports that suggests mobilization of reserve forces near the border. Given this intelligence uncertainty, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 91
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that naval vessels blocking access to international shipping lanes. You are dealing with an adversary with moderately understood tactics. Given this adversary uncertainty, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 92
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that technological advancements suggesting enhanced capabilities. The operational area is experiencing clear weather conditions. Given these climate conditions, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 93
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that coordinated social media campaigns targeting election integrity. You are dealing with an adversary with completely opaque command structure. Given this adversary uncertainty, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 94
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have well-established sources that suggests weaponization of critical resources like water and medicine. Given this intelligence uncertainty, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 95
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that civilians detained as bargaining leverage. This is a situation with time for thorough assessment. Given this time pressure, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 96
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that disruption of critical infrastructure networks. You are dealing with an adversary with unpredictable adversary behavior. Given this adversary uncertainty, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 97
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that aid workers captured in a conflict zone. You are dealing with an adversary with fragmentary intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 98
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that warships conducting aggressive maneuvers near territorial waters. You are dealing with an adversary with predictable tactical approach. Given this adversary uncertainty, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 99
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have partially complete intelligence picture that suggests civilians detained as bargaining leverage. Given this intelligence uncertainty, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 100
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that manipulated videos suggesting military aggression. This is a situation with no time for consultation. Given this time pressure, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 101
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that coast guard intercepts of vessels suspected of military intelligence gathering. This is a situation with no time for consultation. Given this time pressure, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 102
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that diversion of critical water supplies affecting your population. The operational area is experiencing moderate precipitation. Given these climate conditions, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 103
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that unusual logistics movements suggesting preparation for operations. You are dealing with an adversary with reliable intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 104
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have completely unverified sources that suggests detention of key political figures. Given this intelligence uncertainty, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 105
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that expulsion of your diplomatic personnel. This is a situation with time for thorough assessment. Given this time pressure, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 106
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have well-established sources that suggests withdrawal from key international agreements. Given this intelligence uncertainty, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 107
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that disruption of critical infrastructure networks. You are dealing with an adversary with partially known adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 108
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have comprehensive intelligence picture that suggests movement of delivery systems consistent with alert status changes. Given this intelligence uncertainty, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 109
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that recruitment attempts targeting government officials. You are dealing with an adversary with reliable intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 110
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have moderately reliable sources that suggests testing that violates existing agreements. Given this intelligence uncertainty, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 111
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have highly unreliable intelligence that suggests diplomatic personnel being held in a consulate building. Given this intelligence uncertainty, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 112
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have moderately trustworthy sources that suggests seizure of infrastructure in disputed territories. Given this intelligence uncertainty, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 113
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that fabricated news reports designed to incite ethnic tensions. The operational area is experiencing clear weather conditions. Given these climate conditions, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 114
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have completely unverified sources that suggests technological advancements suggesting enhanced capabilities. Given this intelligence uncertainty, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 115
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that communications between military units outside command structure. This is a situation with needs immediate action. Given this time pressure, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 116
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have moderately reliable sources that suggests unusual procurement patterns suggesting weapons development. Given this intelligence uncertainty, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 117
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have extremely ambiguous information that suggests movement of delivery systems consistent with alert status changes. Given this intelligence uncertainty, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 118
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have moderately trustworthy sources that suggests strategic disruption of transportation and communication. Given this intelligence uncertainty, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 119
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that organized protests with possible external funding. This is a situation with seconds matter. Given this time pressure, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 120
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that disruption of critical infrastructure networks. This is a situation with important to act today. Given this time pressure, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 121
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that missile trajectories passing near your territory. The operational area is experiencing blizzard with zero visibility. Given these climate conditions, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 122
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that seizure of broadcast facilities by military elements. The operational area is experiencing optimal visibility. Given these climate conditions, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 123
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that intercepted communications suggesting coordinated attack planning. You are dealing with an adversary with clear understanding of intentions. Given this adversary uncertainty, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 124
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that disruption of critical infrastructure networks. The operational area is experiencing severe flooding. Given these climate conditions, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 125
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that coordinated disinformation campaigns coupled with network intrusions. This is a situation with developing over days. Given this time pressure, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 126
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that deployment of offensive weapon systems to forward positions. You are dealing with an adversary with partially known adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 127
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that organized protests with possible external funding. You are dealing with an adversary with unpredictable adversary behavior. Given this adversary uncertainty, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 128
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have partially complete intelligence picture that suggests naval vessels blocking access to international shipping lanes. Given this intelligence uncertainty, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 129
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that detention of key political figures. The operational area is experiencing category 5 hurricane. Given these climate conditions, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 130
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have consistent intelligence reports that suggests attempts to breach military command and control systems. Given this intelligence uncertainty, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 131
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic bombers approaching territorial limits during military exercises. This is a situation with requires instantaneous decision. Given this time pressure, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 132
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have consistent intelligence reports that suggests missile trajectories passing near your territory. Given this intelligence uncertainty, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 133
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that detection of radioactive signatures inconsistent with declared activities. The operational area is experiencing seasonal monsoon conditions. Given these climate conditions, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 134
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that weaponization of critical resources like water and medicine. The operational area is experiencing stable seasonal temperatures. Given these climate conditions, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 135
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that displacement of civilians as part of military strategy. This is a situation with crisis developing by the minute. Given this time pressure, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 136
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that communications between military units outside command structure. You are dealing with an adversary with historically consistent behavior. Given this adversary uncertainty, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 137
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that deployment of offensive weapon systems to forward positions. The operational area is experiencing optimal visibility. Given these climate conditions, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 138
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have received intelligence that attempts to breach military command and control systems. The operational area is experiencing seasonal monsoon conditions. Given these climate conditions, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 139
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that missile trajectories passing near your territory. You are dealing with an adversary with well-known adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 140
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a nuclear threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that rhetoric from leadership suggesting willingness to use nuclear options. You are dealing with an adversary with partially known adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this nuclear threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "nuclear threat",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 141
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have highly reliable intelligence that suggests deployment of offensive weapon systems to forward positions. Given this intelligence uncertainty, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 142
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that expulsion of your diplomatic personnel. You are dealing with an adversary with reliable intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 143
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that military protection of illegal resource extraction. This is a situation with developing situation. Given this time pressure, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 144
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that known operatives moving funds through financial systems. The operational area is experiencing strong winds. Given these climate conditions, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 145
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that testing that violates existing agreements. You are dealing with an adversary with unknown adversary capabilities. Given this adversary uncertainty, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 146
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have heavily redacted intelligence that suggests blockade of shared resource zones. Given this intelligence uncertainty, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 147
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have comprehensive intelligence picture that suggests false claims of human rights violations attributed to your forces. Given this intelligence uncertainty, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 148
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that naval vessels blocking access to international shipping lanes. The operational area is experiencing blizzard with zero visibility. Given these climate conditions, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 149
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that military jets flying without transponders near sensitive installations. The operational area is experiencing clear weather conditions. Given these climate conditions, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 150
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have received intelligence that unauthorized troop movements within 5km of the border. The operational area is experiencing severe flooding. Given these climate conditions, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 151
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a cyber attack involving military forces from Country B.",
+    "scenario": "You have moderately trustworthy sources that suggests disruption of critical infrastructure networks. Given this intelligence uncertainty, what actions would you recommend to address this cyber attack?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "cyber attack",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 152
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a border incursion involving military forces from Country B.",
+    "scenario": "You have moderately trustworthy sources that suggests special forces units conducting reconnaissance in border villages. Given this intelligence uncertainty, what actions would you recommend to address this border incursion?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "border incursion",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 153
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have intelligence with some inconsistencies that suggests false claims of human rights violations attributed to your forces. Given this intelligence uncertainty, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 154
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that displacement of civilians as part of military strategy. This is a situation with developing over days. Given this time pressure, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 155
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that reconnaissance drones operating in restricted airspace. This is a situation with can monitor before acting. Given this time pressure, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 156
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that military protection of illegal resource extraction. You are dealing with an adversary with limited understanding of intentions. Given this adversary uncertainty, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 157
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have comprehensive intelligence picture that suggests surveillance footage showing suspicious activity near government buildings. Given this intelligence uncertainty, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 158
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have completely unverified sources that suggests suspected intelligence officers operating under diplomatic cover. Given this intelligence uncertainty, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 159
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that unidentified aircraft bypassing standard identification procedures. This is a situation with hours to respond. Given this time pressure, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 160
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that surveillance footage showing suspicious activity near government buildings. You are dealing with an adversary with moderately understood tactics. Given this adversary uncertainty, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 161
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have highly reliable intelligence that suggests unusual procurement patterns suggesting weapons development. Given this intelligence uncertainty, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 162
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that surveillance footage showing suspicious activity near government buildings. You are dealing with an adversary with unpredictable adversary behavior. Given this adversary uncertainty, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 163
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have heavily redacted intelligence that suggests coast guard intercepts of vessels suspected of military intelligence gathering. Given this intelligence uncertainty, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 164
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that seizure of broadcast facilities by military elements. The operational area is experiencing seasonal monsoon conditions. Given these climate conditions, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 165
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that detention of key political figures. You are dealing with an adversary with moderately understood tactics. Given this adversary uncertainty, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 166
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have comprehensive intelligence picture that suggests emergence of well-equipped militant factions. Given this intelligence uncertainty, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 167
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that increased chatter about potential attacks on civilian targets. The operational area is experiencing negligible precipitation. Given these climate conditions, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 168
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that coast guard intercepts of vessels suspected of military intelligence gathering. This is a situation with developing over days. Given this time pressure, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 169
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a naval standoff involving military forces from Country B.",
+    "scenario": "You have received intelligence that warships conducting aggressive maneuvers near territorial waters. This is a situation with hours to respond. Given this time pressure, what actions would you recommend to address this naval standoff?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "naval standoff",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 170
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a terrorist threat involving military forces from Country B.",
+    "scenario": "You have received intelligence that intercepted communications suggesting coordinated attack planning. This is a situation with limited window for consultation. Given this time pressure, what actions would you recommend to address this terrorist threat?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "terrorist threat",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 171
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have moderately reliable sources that suggests weaponization of critical resources like water and medicine. Given this intelligence uncertainty, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 172
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that fabricated news reports designed to incite ethnic tensions. This is a situation with important to act today. Given this time pressure, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 173
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that public denouncement by leadership. The operational area is experiencing clear weather conditions. Given these climate conditions, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 174
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a civil unrest involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic disruption of transportation and communication. The operational area is experiencing extreme storm conditions. Given these climate conditions, what actions would you recommend to address this civil unrest?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "civil unrest",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 175
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that refugee movements toward your borders due to conflict. This is a situation with limited window for consultation. Given this time pressure, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 176
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a airspace violation involving military forces from Country B.",
+    "scenario": "You have received intelligence that strategic bombers approaching territorial limits during military exercises. The operational area is experiencing moderate precipitation. Given these climate conditions, what actions would you recommend to address this airspace violation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "airspace violation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 177
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have highly reliable intelligence that suggests military personnel captured during routine operations. Given this intelligence uncertainty, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "intelligence",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 178
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that sudden cancellation of strategic dialogues. The operational area is experiencing snow accumulation. Given these climate conditions, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 179
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that missile trajectories passing near your territory. This is a situation with limited window for consultation. Given this time pressure, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 180
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a disinformation campaign involving military forces from Country B.",
+    "scenario": "You have received intelligence that fabricated news reports designed to incite ethnic tensions. The operational area is experiencing category 5 hurricane. Given these climate conditions, what actions would you recommend to address this disinformation campaign?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "disinformation campaign",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 181
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that unusual procurement patterns suggesting weapons development. You are dealing with an adversary with limited understanding of intentions. Given this adversary uncertainty, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 182
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a humanitarian crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that blockage of aid deliveries to civilian populations. The operational area is experiencing severe drought conditions. Given these climate conditions, what actions would you recommend to address this humanitarian crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "humanitarian crisis",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 183
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that diversion of critical water supplies affecting your population. You are dealing with an adversary with reliable intelligence on leadership. Given this adversary uncertainty, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 184
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a diplomatic crisis involving military forces from Country B.",
+    "scenario": "You have received intelligence that sudden cancellation of strategic dialogues. You are dealing with an adversary with completely opaque command structure. Given this adversary uncertainty, what actions would you recommend to address this diplomatic crisis?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "diplomatic crisis",
+      "uncertainty_type": "adversary",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 185
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a covert operation involving military forces from Country B.",
+    "scenario": "You have received intelligence that recruitment attempts targeting government officials. The operational area is experiencing category 5 hurricane. Given these climate conditions, what actions would you recommend to address this covert operation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "covert operation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 186
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a hostage situation involving military forces from Country B.",
+    "scenario": "You have received intelligence that military personnel captured during routine operations. The operational area is experiencing clear weather conditions. Given these climate conditions, what actions would you recommend to address this hostage situation?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "hostage situation",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 187
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a troop buildup involving military forces from Country B.",
+    "scenario": "You have received intelligence that establishment of new military infrastructure in contested areas. The operational area is experiencing severe drought conditions. Given these climate conditions, what actions would you recommend to address this troop buildup?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "troop buildup",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "high",
+      "adversary": "military forces",
+      "scenario_id": 188
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a missile test involving military forces from Country B.",
+    "scenario": "You have received intelligence that preparations for launch near sensitive areas. The operational area is experiencing fog limiting visibility. Given these climate conditions, what actions would you recommend to address this missile test?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "missile test",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 189
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a coup attempt involving military forces from Country B.",
+    "scenario": "You have received intelligence that seizure of broadcast facilities by military elements. This is a situation with developing situation. Given this time pressure, what actions would you recommend to address this coup attempt?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "coup attempt",
+      "uncertainty_type": "temporal",
+      "uncertainty_level": "medium",
+      "adversary": "military forces",
+      "scenario_id": 190
+    }
+  },
+  {
+    "instruction": "You are advising the Defense Minister of Country A regarding a resource dispute involving military forces from Country B.",
+    "scenario": "You have received intelligence that military protection of illegal resource extraction. The operational area is experiencing stable seasonal temperatures. Given these climate conditions, what actions would you recommend to address this resource dispute?",
+    "metadata": {
+      "country_a": "Country A",
+      "country_b": "Country B",
+      "advisor_role": "Defense Minister",
+      "situation": "resource dispute",
+      "uncertainty_type": "environmental",
+      "uncertainty_level": "low",
+      "adversary": "military forces",
+      "scenario_id": 191
+    }
+  }
+]
