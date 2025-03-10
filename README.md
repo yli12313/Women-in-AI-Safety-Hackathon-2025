@@ -2,7 +2,7 @@
 
 ### **See our final paper and submission here**: [20250309_Uncertain_AI_Submission_FINAL.pdf](https://github.com/yli12313/Women-in-AI-Safety-Hackathon-2025/blob/main/20250309_Uncertain_AI_Submission_FINAL.pdf)
 
-This is the **Uncertainty.ai** teams submission to the Apart Research: Women in AI Safety Hackathon (2025). 
+This is the **Uncertaint.ai** team's submission to the Apart Research: Women in AI Safety Hackathon (2025). 
 
 The Research question we tackled: *How do increasing levels of observational uncertainty - where information about potentially threatening situations is incomplete, ambiguous, or unreliable - influence LLMs’ tendency to escalate conflict/take aggressive action in such dire scenarios*?
 
