@@ -6,7 +6,7 @@ This is the **Uncertaint.ai** team's submission to the Apart Research: Women in 
 
 The Research question we tackled: *How do increasing levels of observational uncertainty - where information about potentially threatening situations is incomplete, ambiguous, or unreliable - influence LLMs’ tendency to escalate conflict/take aggressive action in such dire scenarios*?
 
-We ran 7 tests! See the test notebooks for the tests, the .csv files for the results, and the data analysis notebook for the EDA.
+We ran 6 tests! See the test notebooks for the tests, the .csv files for the results, and the data analysis notebook for the EDA.
 
 The Code:
 ```
