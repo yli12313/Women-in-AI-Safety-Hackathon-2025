@@ -1,6 +1,6 @@
 # Women-in-AI-Safety-Hackathon-2025
 
-### **See our final paper and submission here**: [20250309_Uncertain_AI_Submission_FINAL.pdf](https://github.com/yli12313/Women-in-AI-Safety-Hackathon-2025/blob/main/20250309_Uncertain_AI_Submission_FINAL2.pdf)
+### **See our final paper and submission here**: [20250309_Uncertain_AI_Submission_FINAL2.pdf](https://github.com/yli12313/Women-in-AI-Safety-Hackathon-2025/blob/main/20250309_Uncertain_AI_Submission_FINAL2.pdf)
 
 This is the **Uncertain.ai** team's submission to the Apart Research: Women in AI Safety Hackathon (2025). 
 
