@@ -13,12 +13,12 @@ The Code:
 .
 ├── README.md
 ├── data_analysis.ipynb                               # This notebook has all our data analysis.
-├── llm_responses_test1_all_types_20250309-185206.csv # The .csv files has the results from test1.
-├── llm_responses_test2_all_types_20250309-194111.csv # The .csv files has the results from test2.
-├── llm_responses_test3_all_types_20250309-194737.csv # The .csv files has the results from test3.
-├── llm_responses_test4_all_types_20250309-195315.csv # The .csv files has the results from test4.
-├── llm_responses_test5_all_types_20250309-185251.csv # The .csv files has the results from test5.
-├── llm_responses_test6_all_types_20250309-195124.csv # The .csv files has the results from test1.
+├── llm_responses_test1_all_types_20250309-185206.csv # The .csv file has the results from test1.
+├── llm_responses_test2_all_types_20250309-194111.csv # The .csv file has the results from test2.
+├── llm_responses_test3_all_types_20250309-194737.csv # The .csv file has the results from test3.
+├── llm_responses_test4_all_types_20250309-195315.csv # The .csv file has the results from test4.
+├── llm_responses_test5_all_types_20250309-185251.csv # The .csv file has the results from test5.
+├── llm_responses_test6_all_types_20250309-195124.csv # The .csv file has the results from test1.
 ├── test1_noCoT_tem0_llama.ipynb                      # The notebook for test1.
 ├── test2_CoT_tem0_llama.ipynb                        # The notebook for test2.
 ├── test3_CoT_tem0.2_llama.ipynb                      # The notebook for test3.
