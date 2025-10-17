@@ -1,4 +1,4 @@
-# Women-in-AI-Safety-Hackathon-2025
+# Women in AI Safety Hackathon (Apart Research)
 
 ### See our final paper submission at the following [link](https://github.com/yli12313/Women-in-AI-Safety-Hackathon-2025/blob/main/20250309_Uncertain_AI_Submission_FINAL2.pdf)! The team definitely put forth a winning effort!
 * **Team**: Ashley Meader, Mingli Che, Shun Yoshizawa, Yingquan Li
